@@ -54,11 +54,11 @@ export default function Home({ exploreData, cardsData }) {
 export async function getStaticProps() {
   const exploreData = await fetch("https://links.papareact.com/pyp", {
     agent: httpsAgent,
-  }).then(async (res) => await res.json());
+  }).then((res) => res.json());
 
   const cardsData = await fetch("https://links.papareact.com/zp1", {
     agent: httpsAgent,
-  }).then(async (res) => await res.json());
+  }).then((res) => res.json());
 
   return {
     props: {
