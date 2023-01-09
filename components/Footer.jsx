@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-4 gap-y-10 px-32 py-14 bg-gray-200">
       <div className="space-y-4 text-xs text-gray-800">
@@ -38,3 +38,5 @@ export const Footer = () => {
     </div>
   );
 };
+
+export default Footer;

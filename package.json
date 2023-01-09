@@ -9,13 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@badrap/bar-of-progress": "^0.2.2",
     "@heroicons/react": "^1.0.6",
     "@next/font": "13.1.1",
+    "axios": "^1.2.2",
+    "date-fns": "^2.29.3",
     "eslint": "8.31.0",
     "eslint-config-next": "13.1.1",
+    "geolib": "^3.3.3",
+    "mapbox-gl": "^2.12.0",
     "next": "13.1.1",
-    "react": "18.2.0",
+    "react": "^18.2.0",
+    "react-date-range": "^1.4.0",
     "react-dom": "18.2.0",
+    "react-map-gl": "^7.0.21",
     "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {

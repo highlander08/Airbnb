@@ -5,8 +5,7 @@ import https from "https";
 import SmallCard from "../components/SmallCard";
 import MediumCard from "../components/MediumCard";
 import LargeCard from "../components/LargeCard";
-import { Footer } from "../components/Footer";
-
+import Footer from "../components/Footer";
 const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
 export default function Home({ exploreData, cardsData }) {
