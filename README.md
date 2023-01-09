@@ -1,1 +1,2 @@
-https://thriving-kringle-f95122.netlify.app
+
+https://creative-lokum-881dbe.netlify.app
